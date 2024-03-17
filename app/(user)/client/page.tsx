@@ -21,7 +21,6 @@ export default async function Page(props: PageParams<{}>) {
     <div className="px-[3%] py-[2%] w-full">
       {user ? (
         <div>
-          <HeadSection title="" />
           <div className="flex items-center gap-5">
             <Image
               src="/hi.svg"

@@ -171,3 +171,12 @@
 .navbar:hover {
   opacity: 1;
 }
+
+.notif-icon {
+  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.notif-icon:hover {
+  transform: rotate(20deg);
+}

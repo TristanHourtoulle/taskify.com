@@ -1,9 +1,9 @@
-import { HeadSection } from "@/features/layout/HeadSection";
+import { TitlePage } from "@/features/layout/TitlePage";
 
 const page = () => {
   return (
     <div className="px-[3%] py-[2%] w-full">
-      <HeadSection title="Settings" />
+      <TitlePage title={"Settings"} />
     </div>
   );
 };

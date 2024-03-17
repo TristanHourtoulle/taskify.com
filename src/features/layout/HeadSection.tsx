@@ -13,7 +13,7 @@ export const HeadSection = (props: HeadSectionProps) => {
         <Bell
           size="25"
           color="white"
-          className="navbar opacity-50 cursor-pointer"
+          className="navbar opacity-50 cursor-pointer notif-icon"
         />
         <LoggedInButton />
       </div>
