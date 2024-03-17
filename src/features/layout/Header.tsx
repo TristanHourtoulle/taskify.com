@@ -29,7 +29,7 @@ export const Header = () => {
 
   return (
     <div className="flex flex-col items-center justify-between gap-4 px-[2%] py-[2%] w-[19%] h-full">
-      <h1 className="font-bold text-3xl text-white">Taskify</h1>
+      <h1 className="font-bold text-2xl text-white pt-[5%]">Taskify</h1>
 
       {/* Navbar */}
       <div className="flex flex-col items-start gap-8">

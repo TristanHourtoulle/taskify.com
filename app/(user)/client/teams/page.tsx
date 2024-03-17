@@ -1,7 +1,9 @@
+import { HeadSection } from "@/features/layout/HeadSection";
+
 const page = () => {
   return (
-    <div>
-      <h1>Teams</h1>
+    <div className="px-[3%] py-[2%] w-full">
+      <HeadSection title="Teams" />
     </div>
   );
 };
