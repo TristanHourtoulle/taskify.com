@@ -28,7 +28,7 @@ export const Header = () => {
   }, [currentUrl]);
 
   return (
-    <div className="flex flex-col items-center justify-between gap-4 px-[2%] py-[2%] w-[19%] h-full">
+    <div className="fixed top-0 left-0 z-50 flex flex-col items-center justify-between gap-4 px-[2%] py-[2%] w-[19%] h-full">
       <h1 className="font-bold text-2xl text-white pt-[5%]">Taskify</h1>
 
       {/* Navbar */}
@@ -103,8 +103,9 @@ export const Header = () => {
       </div>
 
       {/* Credits */}
-      <p className="text-white text-xs opacity-25">
-        Design & Built by TristanHourtoulle
+      <p className="text-white text-xs text-center opacity-25">
+        Design & Built by<br></br>
+        <span className="font-bold">Tristan Hourtoulle</span>
       </p>
     </div>
   );

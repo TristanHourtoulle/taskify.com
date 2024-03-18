@@ -7,15 +7,12 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { LogOut } from "lucide-react";
-import { useRouter } from "next/navigation";
 import { PropsWithChildren } from "react";
 import { signOutAction } from "./auth.action";
 
 export type LoggedInDropdownProps = PropsWithChildren;
 
 export const LoggedInDropdown = (props: LoggedInDropdownProps) => {
-  const router = useRouter();
-
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>{props.children}</DropdownMenuTrigger>

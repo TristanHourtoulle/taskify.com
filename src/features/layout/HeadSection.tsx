@@ -7,7 +7,7 @@ export type HeadSectionProps = {
 
 export const HeadSection = (props: HeadSectionProps) => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="w-full flex items-center justify-between">
       <h1 className="flex-1 text-6xl font-bold text-white">{props.title}</h1>
       <div className="flex items-center gap-10">
         <Bell

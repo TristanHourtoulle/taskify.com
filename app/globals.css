@@ -180,3 +180,37 @@
 .notif-icon:hover {
   transform: rotate(20deg);
 }
+
+/* .searchbar-input {
+  transition: width 0.3s ease;
+  width: 25% !important;
+}
+
+.searchbar-input:focus {
+  width: 50% !important;
+} */
+
+.input-focus\:width-50\:focus {
+  width: 50%;
+}
+
+.create-project-card {
+  background-color: white;
+  border-radius: 16px;
+  animation: scaleAndShake 0.5s ease-out;
+}
+
+.project-card {
+  width: 100%;
+  max-width: 350px;
+  min-width: 250px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255, 0.05);
+  border: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}

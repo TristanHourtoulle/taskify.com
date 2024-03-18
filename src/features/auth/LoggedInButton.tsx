@@ -1,7 +1,7 @@
 import { currentUser } from "@/auth/current-user";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import { SignInButton } from "../layout/SignInButton";
+import { SignInButton } from "./SignInButton";
 import { LoggedInDropdown } from "./LoggedInDropdown";
 
 export const LoggedInButton = async () => {
